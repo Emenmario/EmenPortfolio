@@ -18,23 +18,20 @@ const Projects = () => {
   })
 
   return (
-    <section id='projects' className='w-full min-h-screen px-6 md:px-16 py-24 text-white flex flex-col items-center'>
+    <section id='projects' className='w-full min-h-screen px-4 md:px-16 py-16 md:py-24 text-white flex flex-col items-center'>
       <div className='max-w-7xl w-full'>
-        
-        <div className="mb-16">
-          <span className="text-[#4677b3] font-mono text-xs uppercase tracking-[0.3em] mb-3 block">
+        <div className="mb-12 md:mb-16">
+          <span className="text-[#4677b3] font-mono text-xs md:text-sm uppercase tracking-[0.3em] mb-2 block">
             Selected Works
           </span>
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tighter">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">
             Projects
           </h1>
-          <div className="h-[2px] w-24 bg-[#4677b3] mt-6"></div>
+          <div className="h-[2px] w-20 md:w-24 bg-[#4677b3] mt-4 md:mt-6"></div>
         </div>
-
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 w-full'>
           {projects}
         </div>
-        
       </div>
     </section>
   )
