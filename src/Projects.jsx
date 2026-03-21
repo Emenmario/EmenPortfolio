@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjBox from './ProjBox'
-import projectsData from './ProjectsData'
+import projectsData from './projectsData'
 
 const Projects = () => {
   const projects = projectsData.map((project, index) => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { techStack } from './techstack';
+import { techStack } from './techStack';
 
 const Technologies = () => {
   const [activeIndex, setActiveIndex] = useState(null);
