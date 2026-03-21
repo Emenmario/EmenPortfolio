@@ -2,7 +2,7 @@ import React from 'react';
 import mee from './assets/mee.jpg';
 const Home = () => {
   return (
-    <section id='home' className="w-full min-h-screen text-white grid grid-cols-1 md:grid-cols-2 items-center px-6 md:px-16 gap-10">
+    <section id='home' className="w-full min-h-screen text-white grid grid-cols-1 md:grid-cols-2 items-center pt-20 px-6 md:px-16 gap-10">
 
       <div className="flex flex-col justify-center">
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-tight">
