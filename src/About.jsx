@@ -38,9 +38,12 @@ const About = () => {
                 href="/about"
                 className="group relative inline-flex items-center gap-2 md:gap-3 px-6 md:px-8 py-3 md:py-4 bg-white/[0.03] border border-white/10 rounded-full hover:border-[#4677b3]/50 transition-all duration-300 text-xs md:text-sm tracking-widest uppercase font-mono overflow-hidden"
               >
-                <Link href="/about" className="relative z-10 group-hover:text-[#4677b3] transition-colors">
+               <Link
+                  to="/about"
+                  className="relative z-10 group-hover:text-[#4677b3] transition-colors"
+                >
                   More about me →
-                </Link>
+</Link>
                
                 
                 <div className="absolute inset-0 bg-[#4677b3]/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
