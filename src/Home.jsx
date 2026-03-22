@@ -1,5 +1,5 @@
 import React from 'react';
-import mee from './assets/mee.jpg';
+import meee from './assets/meee.png';
 const Home = () => {
   return (
     <section id='home' className="w-full min-h-screen text-white grid grid-cols-1 md:grid-cols-2 items-center pt-20 px-6 md:px-16 gap-10">
@@ -38,7 +38,7 @@ const Home = () => {
 
       <div className="flex justify-center items-center">
         <div className="w-[280px] h-[280px] md:w-[350px] md:h-[350px] rounded-2xl bg-black border border-white/10 shadow-xl shadow-blue-900/20 flex items-center justify-center">
-          <img className='rounded-4xl' src={mee} />
+          <img className='rounded-4xl' src={meee} />
         </div>
       </div>
 

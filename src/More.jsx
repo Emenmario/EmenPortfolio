@@ -42,11 +42,11 @@ const More = () => {
           <section className='space-y-4'>
             <h3 className='text-[#4677b3] font-mono mb-4 sm:mb-6 text-sm uppercase tracking-widest'>// Professional Path</h3>
             <p className='text-slate-400 leading-relaxed text-sm sm:text-base'>
-              As a self-taught full-stack developer, I focus on building clean, high-performance web applications using <span className='text-white'>React, Node.js, and MongoDB</span>.
+              As a self-taught full-stack developer, I focus on building clean, high-performance web applications using <span className='text-white'>React, Node.js, and Postgresql</span>.
             </p>
             <p className='text-slate-400 leading-relaxed text-sm sm:text-base'>
               Before the code, I spent two years as a <span className='text-[#06d6a0]'>graphic designer</span>. That background in branding is what drives the visual polish in every line of CSS I write. 
-              <a href="#" className='text-[#4677b3] ml-1 hover:text-[#06d6a0] transition-colors border-b border-[#4677b3]/30'>View design archive →</a>
+              <a target='_blank' href="https://drive.google.com/drive/folders/126EZn2daFqJOPkM0E-bkWjfY44e_LaWi?usp=sharing" className='text-[#4677b3] ml-1 hover:text-[#06d6a0] transition-colors border-b border-[#4677b3]/30'>View design archive →</a>
             </p>
           </section>
         </div>
