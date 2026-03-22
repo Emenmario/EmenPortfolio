@@ -10,7 +10,7 @@ const projectsData = [
         description: "a mood tracking app ",
         Technologies:"react,Plain css, supabase,postgreSQL",
         image: trackerimg,
-        link: 'https://lume327.netlify.app/',
+        link: 'https://lume-nine-eta.vercel.app/',
         code:"https://github.com/Emenmario/MoodTracker_Supabase.git"},
     {
         id: 2,  
@@ -18,7 +18,7 @@ const projectsData = [
         description: "a movie tracking app",
         Technologies:"react, tailwindCss, supabase,postgreSQL",
         image: watchlistimg,
-        link: 'https://cinetracker458.netlify.app/',
+        link: 'https://cinetracker-red.vercel.app/',
         code:"https://github.com/Emenmario/watchlist.git"},
     {
         id: 3,
