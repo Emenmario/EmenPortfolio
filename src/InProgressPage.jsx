@@ -54,10 +54,10 @@ const InProgressPage = () => {
 
         {/* Backlink or Socials */}
         <div className="flex flex-col items-center gap-4">
-          <button className="group flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-2.5 rounded-full transition-all duration-300">
+          <a href='https://t.me/U_identified'  className="group flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-2.5 rounded-full transition-all duration-300">
             <span className="text-sm font-medium">Check status on Telegram</span>
             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
         </div>
       </main>
 

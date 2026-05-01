@@ -28,9 +28,9 @@ function App() {
               <Technologies />
               <Education />
               <Contact />
-              <InProgressPage/>
             </div>
           } />
+           <Route path="/in-progress" element={<InProgressPage/>}/>
           <Route path="/about" element={<More />} />
         </Routes>
       </div>
