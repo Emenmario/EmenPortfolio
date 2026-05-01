@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import Education from './Education';
 import Contact from './Contact';
 import NavBar from './NavBar';
+import InProgressPage from './InProgressPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Technologies />
               <Education />
               <Contact />
+              <InProgressPage/>
             </div>
           } />
           <Route path="/about" element={<More />} />

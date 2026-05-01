@@ -12,10 +12,14 @@ import supabase from './assets/supabase.png'
 import csharp from './assets/csharp.png'
 import git from './assets/git.png'
 import github from './assets/github.png'
+import appwrite from './assets/appwrite.png'
+import typescript from './assets/typescript.png'
 
 export const techStack = [
   { name: "HTML5", category: "Frontend",image:html },
   { name: "CSS3", category: "Frontend",image:css},
+    { name: "TypeScript", category: "Language", image: typescript },
+
   { name: "JavaScript", category: "Language", image:javascript },
   { name: "React", category: "Frontend", image: react },
   { name: "Tailwind CSS", category: "Design/CSS", image: tailwind },
@@ -23,6 +27,7 @@ export const techStack = [
   { name: "Node.js", category: "Backend", image: node },
   { name: "Express", category: "Backend", image: express },
   { name: "PostgreSQL", category: "Database", image: postgres },
+  { name: "Appwrite", category: "Database/BaaS", image: appwrite },
   { name: "Supabase", category: "Database/BaaS", image: supabase },
   { name: "C#", category: "Language", image: csharp },
   { name: "Git", category: "Tools", image: git },
