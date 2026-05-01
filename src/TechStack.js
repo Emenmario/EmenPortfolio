@@ -13,7 +13,7 @@ import csharp from './assets/csharp.png'
 import git from './assets/git.png'
 import github from './assets/github.png'
 import appwrite from './assets/appwrite.png'
-import typescript from './assets/typescript.png'
+import typescript from './assets/TypeScript.png'
 
 export const techStack = [
   { name: "HTML5", category: "Frontend",image:html },
